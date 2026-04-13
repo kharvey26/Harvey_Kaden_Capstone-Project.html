@@ -1,0 +1,197 @@
+/*creates the blue band atop every page*/
+header {
+    background-color: #26408B;
+    padding: 20px 0;               
+    text-align: center;
+}
+/*Creates my white title a top of each page*/
+header h1 {
+    color: white;
+    margin: 1px;
+    font-size: 2.5em;              
+    text-align: center;
+    text-shadow: 3px 3px 6px rgba(0,0,0,0.5);
+}
+/*Title to each tab page to differntiate*/
+h2 {
+    text-align: center;
+    color: #26408B;                     
+    font-weight: bold;
+    font-size: 2em;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    text-decoration: underline;         
+    text-decoration-thickness: 3px;     
+    text-underline-offset: 6px;         
+    margin-top: 20px;
+}
+/*Colors the background*/
+body {
+    background-color: #F7F7F2;   
+    margin: 0;
+    padding: 0;
+}
+
+/*Puts the logo up top with the header*/
+header .logo {
+    position: absolute;
+    top: 10px;     
+    left: 20px;    
+    height: 100px;   
+}
+
+/*Spaces out my home page nav options*/
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15vh;
+}
+/*formats my pictures with my tabs*/
+.tab {
+    display: flex;
+    flex-direction: column;   
+    align-items: center;      
+}
+/*Puts my tabs into boxes making them pop*/
+nav a {
+    color: white;
+    font-size: 1.6em;
+    padding: 15px 30px;
+    text-decoration: none;
+    border: 3px solid #81B1D5;
+    border-radius: 10px;
+    background-color: #26408B;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.tab-img {
+    width: 150px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+/*creates the casing and style for the footer*/
+footer {
+    background-color: #26408B;   
+    color: white;                
+    text-align: center;          
+    padding: 8px 0;              
+    position: fixed;             
+    bottom: 0;
+    left: 0;
+    width: 100%;                 
+    font-size: 0.9em;            
+}
+/*Creates the nav on the left of the page*/
+.side-nav {
+    width: 180px;
+    float: left;
+    margin-top: 20px;
+}
+
+.side-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.side-nav li {
+    margin-bottom: 15px;
+}
+/*encases the side nav*/
+.side-nav a {
+    display: block;
+    padding: 5px;
+    background-color: #26408B;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    border: 2px solid #81B1D5;
+    font-weight: bold;
+    text-align: center;
+}
+/*Sets up the style for the main texts of the page*/
+.content-box {
+    background-color: #26408B;   
+    color: white;                
+    border: 3px solid black;     
+    padding: 20px;
+    margin-left: 220px;          
+    margin-top: 20px;
+    width: 60%;
+    border-radius: 8px;
+}
+.content-box dt {
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-top: 15px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+}
+
+.content-box dd {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+.photo-row {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px;
+}
+
+.photo-row img {
+    width: 30%;       
+    border-radius: 10px;
+}
+
+/* === TABLE STYLES === */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+    border: 2px solid #26408B;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+th {
+    background-color: #26408B;
+    color: white;
+    padding: 12px;
+    font-size: 1.2em;
+    text-align: left;
+    border-bottom: 2px solid #81B1D5;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #81B1D5;
+    color: #26408B;
+    font-size: 1.1em;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+.preorder-btn {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: #26408B;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.preorder-btn:hover {
+    background-color: #1d326d;
+}
+
+
+
+
