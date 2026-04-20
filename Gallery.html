@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+
+    <style>
+        body {
+            background-color: #333333;
+            color: #eaeaea;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+                #gallery {
+            position: relative;
+            width: 700px;
+            margin: 20px auto;
+        }
+
+        
+        #gallery figure {
+            position: absolute;
+            left: 280px;
+            text-align: center;
+            opacity: .25;
+        }
+
+                #gallery ul {
+            width: 300px;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        #gallery li {
+            display: inline;
+            float: left;
+            padding: 10px;
+        }
+
+        #gallery img {
+            border: none;
+        }
+
+        #gallery a {
+            text-decoration: none;
+            color: #eaeaea;
+            font-style: italic;
+        }
+
+                #gallery span {
+            position: absolute;
+            left: -1000px;
+            opacity: 0;
+            transition: opacity 3s ease-in-out;
+        }
+
+               #gallery a:hover span {
+            position: absolute;
+            top: 16px;
+            left: 320px;
+            text-align: center;
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Image Gallery</h1>
+
+<div id="gallery">
+
+
+    <figure>
+        <img src="bookbag.png" width="400" height="300" alt="Placeholder">
+    </figure>
+    <ul>
+        <li>
+            <a href="bookbag.png">
+                <img src="bookbagthumb.png" width="100" height="75" alt="Image 1">
+                <span>
+                    <img src="bookbag.png" width="400" height="300" alt="Image 1"><br>
+                    Bookbag
+                </span>
+            </a>
+        </li>
+
+        <li>
+            <a href="hat.png">
+                <img src="hatthumb.png" width="100" height="75" alt="Image 2">
+                <span>
+                    <img src="hat.png" width="400" height="300" alt="Image 2"><br>
+                    Hat
+                </span>
+            </a>
+        </li>
+
+        <li>
+            <a href="pink.png">
+                <img src="pinkthumb.png" width="100" height="75" alt="Image 3">
+                <span>
+                    <img src="pink.png" width="400" height="300" alt="Image 3"><br>
+                    Pink Lady Shirt
+                </span>
+            </a>
+        </li>
+
+        <li>
+            <a href="shirt1.png">
+                <img src="shirt1thumb.png" width="100" height="75" alt="Image 4">
+                <span>
+                    <img src="shirt1.png" width="400" height="300" alt="Image 4"><br>
+                    Custom shirt 1
+                </span>
+            </a>
+        </li>
+
+        <li>
+            <a href="shirt2.png">
+                <img src="shirt2thumb.png" width="100" height="75" alt="Image 5">
+                <span>
+                    <img src="shirt2.png" width="400" height="300" alt="Image 5"><br>
+                    Custom shirt 2
+                </span>
+            </a>
+        </li>
+
+        <li>
+            <a href="shirt3.png">
+                <img src="shirt3thumb.png" width="100" height="75" alt="Image 6">
+                <span>
+                    <img src="shirt3.png" width="400" height="300" alt="Image 6"><br>
+                    Custom shirt 3
+                </span>
+            </a>
+        </li>
+
+        <li>
+            <a href="skirt.png">
+                <img src="skirtthumb.png" width="100" height="75" alt="Image 7">
+                <span>
+                    <img src="skirt.png" width="400" height="300" alt="Image 7"><br>
+                    Skirt
+                </span>
+            </a>
+        </li>
+
+        <li>
+            <a href="sock.png">
+                <img src="sockthumb.png" width="100" height="75" alt="Image 8">
+                <span>
+                    <img src="sock.png" width="400" height="300" alt="Image 8"><br>
+                    Socks
+                </span>
+            </a>
+        </li>
+    </ul>
+
+</div>
+
+</body>
+</html>
+
+
+
+
+
